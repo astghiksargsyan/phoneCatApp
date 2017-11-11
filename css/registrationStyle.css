@@ -1,0 +1,8 @@
+.reg-content{
+    display: flex;
+    justify-content: center;
+}
+.padd{
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+
+<div class="grid-container ">
+    <h1>Products</h1>
+    <p> Filter: </p>
+    <input type="text" ng-model="search">
+
+    <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-5 ">
+        <div class="cell phone-item" ng-repeat="phone in phones | filter: search" >
+            <p> {{phone.name}} </p>
+            <img src="{{phone.imageUrl}}">
+            <p class="dscrition"> {{phone.snippet}} </p>
+            <a href="#features" class="button">View All Features</a>
+        </div>
+    </div>
+
+
+</div>

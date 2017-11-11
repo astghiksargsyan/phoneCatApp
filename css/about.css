@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.mainPhoto{
+    background-color: #dcdcdc;
+    height: 400px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #484747;
+}
+.portfolio-image{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.portfolio{
+    padding-top: 15px;
+    background-color: #dcdcdc;
+}
+.sss{
+    border: 1px solid green;
+}

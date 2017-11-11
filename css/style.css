@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.menu-container {
+  background-color: #4c4c4c;
+  display: flex;
+  justify-content: center;
+  height: 58px;
+}
+
+.menu {
+  width: 90%;
+  justify-content: space-around;
+  align-items : center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  display: flex;
+}
+
+.menu > a {
+  color: #dcdcdc;
+  text-decoration: none;
+  display: block;
+}
+
+.padding-top {
+  padding-top: 0px;
+  height: 58px;
+}
+
+.aPapping {
+  padding-top: 12px;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:link {
+  color: #fff;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgDiv {
+  background: url("../img/bg-goodssolutions.jpg") no-repeat;
+  background-size: 100%;
+  background-position: 24% 59%;
+  flex: 2;
+}
+
+.mainText {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  padding-top: 5%;
+  font-size: 50px;
+  text-shadow: 3px 2px #ecdfdf;
+}
+
+.imgDiv > p {
+  padding-left: 20px;
+  text-shadow: 1px 1px #ecdfdf;
+  padding-top: 10px;
+}
+
+.phone-item {
+  border: 1px solid #cacaca;
+  display: flex;
+  flex-direction: column;
+}
+
+.dscrition {
+  display: flex;
+
+}
+
+.view-wrapper {
+  display: flex;
+}
+
+.view-phone {
+  display: flex;
+  background-color: #5bc0de;
+  align-self: flex-end;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #4c4c4c;
+}
+
+.footer {
+  width: 20%;
+  display: flex;
+}
+
+.footer-content {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.someClass:hover {
+  background-color: #4c4c4c;
+}
+
+.footer-description {
+  width: 75%;
+}
